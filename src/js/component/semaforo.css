@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(35, 48, 69);
+}
+.cajanegra {
+    background-color: black;
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.circuloRojo {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 25px;
+    left: 85px;
+}
+
+.circuloAmarillo {
+    background-color: yellow;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 165px;
+    left: 85px;
+}
+
+.circuloVerde {
+    background-color: green;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 310px;
+    left: 85px;
+}
+.circuloPurple {
+    background-color: purple;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 450px;
+    left: 85px;
+}
+
+.luz {
+    box-shadow: 0 0 30px rgb(241, 255, 184);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(48, 56, 173);
+    color: white;
+}
